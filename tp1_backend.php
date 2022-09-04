@@ -20,10 +20,10 @@
     $n1 = 10;
     $n2 = 5;
     echo "<b>Datos:</b>";
+    echo  "<br>";
+    echo "Numero 1: $n1";
     echo "<br>";
-    echo "Numero 1: ".$n1;
-    echo "<br>";
-    echo "Numero 2: ".$n2;
+    echo "Numero 2: $n2";
     echo "<br>";
     echo "<br>";
     echo "<b>Operaciones:</b>";
@@ -42,7 +42,7 @@
     <?php
     $tempg = 20;
     $tempf = $tempg*9/5 +32;
-    echo "20 grados en Farenheit: ".$tempf."°F";
+    echo "20 grados en Farenheit: $tempf °F";
     ?>
     <h2>Ejercicio 5</h2>
     <h3>Rectangulo</h3>
@@ -53,16 +53,16 @@
      $areaR = $base * $altura;
      echo "<b>Datos: </b>";
      echo "<br>";
-     echo "Base= ".$base." cm";
+     echo "Base= $base cm";
      echo "<br>";
-     echo "Altura= ".$altura." cm";
+     echo "Altura= $altura cm";
      echo "<br>";
      echo "<br>";
      echo "<b>Resultados: </b>";
      echo "<br>";
-     echo "Perimetro= ".$perimetroR." cm";
+     echo "Perimetro= $perimetroR cm";
      echo "<br>";
-     echo "Area= ".$areaR." cm2";
+     echo "Area= $areaR cm2";
     ?>
     <h3>Circulo</h3>
     <?php
@@ -71,14 +71,14 @@
     $areaC =  3.14*($radio**2)/4;
     echo "<b>Datos: </b>";
     echo "<br>";
-    echo "radio= ".$radio." cm";
+    echo "radio= $radio cm";
     echo "<br>";
     echo "<br>";
     echo "<b>Resultados: </b>";
     echo "<br>";
-    echo "Perimetro= ".$perimetroC." cm";
+    echo "Perimetro= $perimetroC cm";
     echo "<br>";
-    echo "Area= ".$areaC." cm2";
+    echo "Area= $areaC cm2";
     ?>
   </body>
 </html>
